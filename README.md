@@ -28,7 +28,8 @@ float z_rot = position.v[2] * cos(x_angle * M_PI/180) - position.v[1] * sin(x_an
 float x_rot = position.v[0] * cos(y_angle * M_PI/180) + z_rot * sin(y_angle * M_PI/180);
 float z_final = z_rot * cos(y_angle * M_PI/180) - position.v[0] * sin(y_angle * M_PI/180);
 float x_final = x_rot * cos(z_angle * M_PI/180) + y_rot * sin(z_angle * M_PI/180);
-float y_final = y_rot * cos(z_angle * M_PI/180) - x_rot * sin(z_angle * M_PI/180);```
+float y_final = y_rot * cos(z_angle * M_PI/180) - x_rot * sin(z_angle * M_PI/180);
+```
 
 ## Legal
 
